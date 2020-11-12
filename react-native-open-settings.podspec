@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.source         = { :git => "https://github.com/newbiepub/react-native-open-settings.git", :tag => "1.0.0" }
   s.source_files   = '**/*.{h,m}'
   s.preserve_paths = "**/*.js"
-  s.dependency 'React'
+  s.dependency "React-Core"
 
 end
